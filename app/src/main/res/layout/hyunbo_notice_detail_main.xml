@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="200"
+        android:background="#2c96bc"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="130"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/hyunbo_notice_back_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1040"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="공지사항"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="130"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:orientation="vertical"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2054"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="제목"
+                    android:textColor="#1274b2"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="245"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="465"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="345"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_context"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:lines="10"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

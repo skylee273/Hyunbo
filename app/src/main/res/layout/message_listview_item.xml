@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2264">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="#ffffff"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="350"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_date"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="#2b95bc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="990"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left|center_vertical"
+                    android:maxLength="10"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:orientation="vertical"></LinearLayout>
+    </LinearLayout>
+</LinearLayout>

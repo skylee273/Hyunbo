@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/hyunbo_work_back"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="84"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25.714285714285714285714285714286"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="27.142857142857142857142857142857"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="36.571428571428571428571428571429"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="84.857142857142857142857142857143"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="114.28571428571428571428571428571"
+                android:animateLayoutChanges="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#3089b1"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="84.857142857142857142857142857143"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="36.571428571428571428571428571429"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="27.142857142857142857142857142857"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="62.857142857142857142857142857143"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="148.57142857142857142857142857143"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="114.28571428571428571428571428571"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_day"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#3089b1"
+                    android:textSize="40sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="148.57142857142857142857142857143"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="41.428571428571428571428571428571"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="28.571428571428571428571428571429"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="122.85714285714285714285714285714"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="177.14285714285714285714285714286"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_eyear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:textColor="#3089b1"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView_year"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#606e70"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="122.85714285714285714285714285714"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="47.428571428571428571428571428571"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="57.142857142857142857142857142857"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_today"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="137.14285714285714285714285714286"
+                android:background="@drawable/hyunbo_work_today_button" />
+
+            <Button
+                android:id="@+id/button_month"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="137.14285714285714285714285714286"
+                android:background="@drawable/hyunbo_work_month_button" />
+
+            <Button
+                android:id="@+id/button_choice"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="137.14285714285714285714285714286"
+                android:background="@drawable/hyunbo_choice_button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="32.571428571428571428571428571429"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="211.42857142857142857142857142857"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="28.571428571428571428571428571429"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="167.14285714285714285714285714286"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="194.28571428571428571428571428571"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_gotime"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:inputType="textPersonName"
+                        android:textColor="#58595b"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="17.142857142857142857142857142857"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="28.571428571428571428571428571429"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="167.14285714285714285714285714286"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="194.28571428571428571428571428571"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_outtime"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:inputType="textPersonName"
+                        android:textColor="#58595b"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="17.142857142857142857142857142857"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="28.571428571428571428571428571429"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="167.14285714285714285714285714286"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="194.28571428571428571428571428571"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_default_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:inputType="textPersonName"
+                        android:textColor="#58595b"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="17.142857142857142857142857142857"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="28.571428571428571428571428571429"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="167.14285714285714285714285714286"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="194.28571428571428571428571428571"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_overtime"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:inputType="textPersonName"
+                        android:textColor="#58595b"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="17.142857142857142857142857142857"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="28.571428571428571428571428571429"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="167.14285714285714285714285714286"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="194.28571428571428571428571428571"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:inputType="textPersonName"
+                        android:textColor="#58595b"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="35.714285714285714285714285714286"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="51.428571428571428571428571428571"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="22.857142857142857142857142857143"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="177.14285714285714285714285714286"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button_work_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/hyunbo_work_confirm"
+                    android:text="확인"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="11.428571428571428571428571428571"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="177.14285714285714285714285714286"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button_work_modify"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/hyunbo_modify_button"
+                    android:text="수정"
+                    android:textColor="#3089b1"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="22.857142857142857142857142857143"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25.714285714285714285714285714286"
+            android:orientation="vertical"></LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

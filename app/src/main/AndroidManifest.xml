@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="btcore.co.kr.hyunbo">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hyunbo_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginAndRegister.HyunBo_Login_Main" android:launchMode="singleInstance" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"  />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Work.HyunBo_Work_Main" android:launchMode="singleInstance" android:screenOrientation="portrait"></activity>
+        <activity android:name=".MainActivity" android:launchMode="singleInstance" android:screenOrientation="portrait"></activity>
+        <activity android:name=".HyunBo_Modify_Main"  android:launchMode="singleInstance" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Work.HyunBo_Work_Month_Main" android:launchMode="singleInstance" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Work.HyunBo_Work_Choice_Main" android:launchMode="singleInstance" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Setting.HyunBo_Setting_Main" android:launchMode="singleInstance" android:screenOrientation="portrait" ></activity>
+        <activity android:name=".Notice.HyunBo_Notice_Main" android:launchMode="singleInstance" android:screenOrientation="portrait" ></activity>
+        <activity android:name=".Notice.HyunBo_Notice_Detail_Main" android:launchMode="singleInstance" android:screenOrientation="portrait" ></activity>
+        <activity android:name=".Setting.Hyunbo_Password_Main"  android:launchMode="singleInstance" android:screenOrientation="portrait" ></activity>
+        <activity android:name=".Message.HyunBo_Message_Main" android:launchMode="singleInstance" android:screenOrientation="portrait" ></activity>
+        <activity android:name=".Message.HyunBo_Message_Detail_Main" android:launchMode="singleInstance" android:screenOrientation="portrait" ></activity>
+        <activity android:name=".Setting.Hyunbo_Phone_Main" android:launchMode="singleInstance" android:screenOrientation="portrait" ></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_state"
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="13dp"
+        android:orientation="horizontal"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_change">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="휴대폰 번호는 - 을 제외한 번호로 입력해주세요." />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="11dp"
+        android:background="#3089b1"
+        android:text="변경완료"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_state" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="13dp"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:ems="10"
+                android:hint="현재 휴대폰 번호"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText_newphone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:ems="10"
+                android:hint="새  휴대폰 번호"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText_newphone2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:ems="10"
+                android:hint="새 휴대폰 번호 재입력"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/hyunbo_setting_toolbar"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="130"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/hyunbo_setting_back_icon"
+                android:elevation="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1240"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="휴대폰 번호 변경"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="130"
+            android:alwaysDrawnWithCache="false"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:alwaysDrawnWithCache="false"
+            android:orientation="vertical"></LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

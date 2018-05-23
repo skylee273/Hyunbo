@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/hyunbo_login_back"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="312.57142857142857142857142857143"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="54.285714285714285714285714285714"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="311.42857142857142857142857142857"
+                android:background="@drawable/hyunbo_box"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="12.857142857142857142857142857143"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="36.571428571428571428571428571429"
+                    android:background="@drawable/hyunbo_id_icon"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7.7142857142857142857142857142857"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="21.428571428571428571428571428571"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="232.85714285714285714285714285714"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editText_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:ems="10"
+                        android:hint="아이디"
+                        android:inputType="number"
+                        android:maxLength="12"
+                        android:textColor="#9d9d9f"
+                        android:textColorHint="#9d9d9f"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="54.285714285714285714285714285714"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="311.42857142857142857142857142857"
+                android:background="@drawable/hyunbo_box"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="12.857142857142857142857142857143"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="36.571428571428571428571428571429"
+                    android:background="@drawable/hyunbo_pw_icon"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7.7142857142857142857142857142857"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="21.428571428571428571428571428571"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="232.85714285714285714285714285714"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editText_pw"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:maxLength="10"
+                        android:background="@null"
+                        android:ems="10"
+                        android:hint="비밀번호"
+                        android:inputType="textPassword"
+                        android:textColor="#9d9d9f"
+                        android:textColorHint="#9d9d9f"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="21.428571428571428571428571428571"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25.714285714285714285714285714286"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="264.28571428571428571428571428571"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="5dp"
+                    android:text="자동로그인"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="47.142857142857142857142857142857"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkBox_Auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="58.571428571428571428571428571429"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="54.285714285714285714285714285714"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="311.42857142857142857142857142857"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/hyunbo_login_button"
+                    android:text="로그인"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="102.85714285714285714285714285714"
+            android:orientation="vertical"></LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
